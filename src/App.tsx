@@ -77,7 +77,6 @@ const Alert = styled.div`
     border-radius: 8px;
     font-size: 24px;
     font-weight: bold;
-    cursor: pointer;
     transition: opacity 0.2s;
 
     &:hover {
