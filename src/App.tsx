@@ -1,5 +1,7 @@
 import styled, {createGlobalStyle} from 'styled-components';
 
+import PreviasMe from './assets/logo-previas-me-horizontal.svg';
+
 const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
@@ -110,7 +112,7 @@ const App = () => {
             <GlobalStyle />
             <Container>
                 <Logo>
-                    <img src="../src/assets/logo-previas-me-horizontal.svg" alt="Previas.me"/>
+                    <img src={PreviasMe} alt="Previas.me"/>
                 </Logo>
 
                 <MainText>
