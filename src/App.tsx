@@ -3,8 +3,6 @@ import styled, {createGlobalStyle} from 'styled-components';
 import PreviasMe from './assets/logo-previas-me-horizontal.svg';
 
 const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
     * {
         margin: 0;
         padding: 0;
@@ -12,8 +10,14 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
     }
 
+    html {
+        font-size: 16px;
+    }
+    
     body {
         background-color: #221319;
+        font-size: 1rem;
+        line-height: 1.5;
     }
 `;
 
@@ -58,7 +62,7 @@ const MainText = styled.h2`
     color: white;
     font-size: 46px;
     font-weight: 400;
-    max-width: 900px;
+    max-width: 1000px;
     line-height: 1.3;
     margin-bottom: 60px;
 
