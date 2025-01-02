@@ -128,7 +128,7 @@ const App = () => {
                 </Alert>
 
                 <Footer href="https://previas.me">
-                    ©2024 Previas.me
+                    ©2025 Previas.me
                 </Footer>
             </Container>
         </>
